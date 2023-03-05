@@ -9,7 +9,7 @@
 #include <cstring>
 
 int main() {
-    const char* server_address = "192.168.1.100";  // Set the server IP address
+    const char* server_address = "";  // Set the server IP address
     const int server_port = 8080;  // Set the server port
 
     const char* camera_device_template = "/dev/video%d";  // Set the camera device path template
